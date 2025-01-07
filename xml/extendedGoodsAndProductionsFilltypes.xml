@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+    <fillTypes>
+    <!-- FLOURS-->
+        <fillType name="MAIZEFLOUR" title="$l10n_fillType_maizeFlour" showOnPriceTable="true">
+            <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.910">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.07" />
+                    <factor period="3"  value="0.99" />
+                    <factor period="4"  value="0.94" />
+                    <factor period="5"  value="0.85" />
+                    <factor period="6"  value="0.81" />
+                    <factor period="7"  value="0.86" />
+                    <factor period="8"  value="0.99" />
+                    <factor period="9"  value="1.08" />
+                    <factor period="10" value="1.13" />
+                    <factor period="11" value="1.21" />
+                    <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image	hud="textures/hud_fill_maizeFlour.dds" />
+            <pallet	filename="xml/pallets/maizeFlourBoxPallet.xml" />
+        </fillType>
+
+        <fillType name="SOYFLOUR" title="$l10n_fillType_soyFlour" showOnPriceTable="true">
+            <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="1.440">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.07" />
+                    <factor period="3"  value="0.99" />
+                    <factor period="4"  value="0.94" />
+                    <factor period="5"  value="0.85" />
+                    <factor period="6"  value="0.81" />
+                    <factor period="7"  value="0.86" />
+                    <factor period="8"  value="0.99" />
+                    <factor period="9"  value="1.08" />
+                    <factor period="10" value="1.13" />
+                    <factor period="11" value="1.21" />
+                    <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image	hud="textures/hud_fill_soyFlour.dds" />
+            <pallet	filename="xml/pallets/soyFlourBoxPallet.xml" />
+        </fillType>
+
+        <fillType name="PEASFLOUR" title="$l10n_fillType_peasFlour" showOnPriceTable="true">
+            <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="1.925">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.07" />
+                    <factor period="3"  value="0.99" />
+                    <factor period="4"  value="0.94" />
+                    <factor period="5"  value="0.85" />
+                    <factor period="6"  value="0.81" />
+                    <factor period="7"  value="0.86" />
+                    <factor period="8"  value="0.99" />
+                    <factor period="9"  value="1.08" />
+                    <factor period="10" value="1.13" />
+                    <factor period="11" value="1.21" />
+                    <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image	hud="textures/hud_fill_peasFlour.dds" />
+            <pallet	filename="xml/pallets/peasFlourBoxPallet.xml" />
+        </fillType>
+
+        <fillType name="CANOLAFLOUR" title="$l10n_fillType_canolaFlour" showOnPriceTable="true">
+            <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="3.185">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.07" />
+                    <factor period="3"  value="0.99" />
+                    <factor period="4"  value="0.94" />
+                    <factor period="5"  value="0.85" />
+                    <factor period="6"  value="0.81" />
+                    <factor period="7"  value="0.86" />
+                    <factor period="8"  value="0.99" />
+                    <factor period="9"  value="1.08" />
+                    <factor period="10" value="1.13" />
+                    <factor period="11" value="1.21" />
+                    <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image	hud="textures/hud_fill_canolaFlour.dds" />
+            <pallet	filename="xml/pallets/canolaFlourBoxPallet.xml" />
+        </fillType>
+
+        <fillType name="SUNFLOWERFLOUR" title="$l10n_fillType_sunflowerFlour" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="8.440">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_sunflowerFlour.dds" />
+                <pallet	filename="xml/pallets/sunflowerFlourBoxPallet.xml" />
+            </fillType>
+
+
+            <!-- PLANT BASED MILKS-->
+            <fillType name="OATMILK_BOTTLED" title="$l10n_fillType_oatMilkBottled" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="3.200">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_oatMilkBottled.dds" />
+                <pallet	filename="xml/pallets/oatMilkBottlesBoxPallet.xml" />
+            </fillType>
+                    <fillType name="RICEMILK_BOTTLED" title="$l10n_fillType_riceMilkBottled" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="1.110">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_riceMilkBottled.dds" />
+                <pallet	filename="xml/pallets/riceMilkBottlesBoxPallet.xml" />
+            </fillType>
+                    <fillType name="SOYMILK_BOTTLED" title="$l10n_fillType_soyMilkBottled" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="3.860">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_soyMilkBottled.dds" />
+                <pallet	filename="xml/pallets/soyMilkBottlesBoxPallet.xml" />
+            </fillType>
+            <fillType name="PEAMILK_BOTTLED" title="$l10n_fillType_peaMilkBottled" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="3.200">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_peaMilkBottled.dds" />
+                <pallet	filename="xml/pallets/peaMilkBottlesBoxPallet.xml" />
+            </fillType>
+
+            <!-- Additional Dairy Products -->
+            <fillType name="GARLICBUTTER" title="$l10n_fillType_garlicButter" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="1.500">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_garlicButter.dds" />
+                <pallet	filename="xml/pallets/garlicButterBoxPallet.xml" />
+            </fillType>
+            <fillType name="YOGHURT" title="$l10n_fillType_yoghurt" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="1.440">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_yoghurt.dds" />
+                <pallet	filename="xml/pallets/yoghurtBoxPallet.xml" />
+            </fillType>
+            <fillType name="STRAWBERRYMILK_BOTTLED" title="$l10n_fillType_strawberryMilk_bottled" showOnPriceTable="true">
+                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="7500">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_strawberryMilkBottled.dds" />
+                <pallet	filename="xml/pallets/strawberryMilkBottlesBoxPallet.xml" />
+            </fillType>
+    </fillTypes>
+
+    <fillTypeCategories>
+        <fillTypeCategory name="PRODUCT">MAIZEFLOUR SOYFLOUR PEASFLOUR GRANOLAFLOUR SUNFLOWERFLOUR STRAWBERRYMILK_BOTTLED YOGHURT GARLICBUTTER OATMILK_BOTTLED SOYMILK_BOTTLED RICEMILK_BOTTLED PEAMILK_BOTTLED</fillTypeCategory>
+	</fillTypeCategories>	
+</map>

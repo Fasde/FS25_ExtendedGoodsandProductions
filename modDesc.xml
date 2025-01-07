@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="94">
+    <author>Fasde</author>
+    <version>1.0.0.0</version>
+	
+    <title>
+        <en>Extended Goods And Productions</en>
+        <de>Erweiterte Güter Und Produktionsketten</de>
+        <es>Bienes Avanzados Y Producciónes</es>
+        <fr>Biens Et Poduction Avancés</fr>
+        <it>Beni Avanzati E Produzione</it>
+    </title>
+	
+    <description>
+<en><![CDATA[Contains a series of new production chains, including three production buildings and products.
+New goods:
+
+Pea flour
+Corn flour
+Canola flour
+Soy flour
+Sunflower flour
+Garlic butter
+Yogurt
+Strawberry milk
+Pea milk
+Oat milk
+Rice milk
+Soy milk
+
+Grain Mill (Extended):
+
+Category: Placeable - Production
+Price: 325,000
+Maintenance: 120
+Productions: All from the grain mill +
+Input: Peas
+Output: Pea flour
+Input: Peas
+Output: Flour
+Input: Corn
+Output: Corn flour
+Input: Corn
+Output: Flour
+Input: Rapeseed
+Output: Rapeseed flour
+Input: Rapeseed
+Output: Flour
+Input: Soybeans
+Output: Soy flour
+Input: Soybeans
+Output: Flour
+Input: Sunflowers
+Output: Sunflower flour
+Input: Sunflowers
+Output: Flour
+
+The plant-specific flour productions are more efficient; however, standard flour should still be usable for the bakery.
+
+Dairy (Extended):
+
+Category: Placeable - Production
+Price: 245,000
+Maintenance: 110
+Productions: All from the dairy +
+Input: Milk + Sugar
+Output: Yogurt
+Input: Milk + Sugar + Strawberries
+Output: Strawberry milk
+Input: Milk + Garlic
+Output: Garlic butter
+
+Plant-Based Milk Production:
+
+Category: Placeable - Production
+Price: 225,000
+Maintenance: 85
+Productions:
+Input: Peas
+Output: Pea milk
+Input: Oats
+Output: Oat milk
+Input: Long-grain rice
+Output: Rice milk
+Input: Rice
+Output: Rice milk
+Input: Soybeans
+Output: Soy milk
+
+Note: The HUD icons and pallets are not optimally designed.
+
+GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+
+]]></en>
+<de><![CDATA[Enthält eine Reihe neuer Produktionsketten inklusive dreier Produktionsgebäude und Produkte.
+Neue Güter:
+Erbsenmehl
+Maismehl
+Rapsmehl
+Sojamehl
+Sonnenblumenmehl
+
+Knoblauchbutter
+Joghurt
+Erdbeermilch
+
+Erbsenmilch
+Hafermilch
+Reismilch
+Sojamilch
+
+
+Getreidemühle (erweitert):
+Kategorie: Platzierbar - Produktion
+Preis: 325.000
+Unterhalt: 120
+Produktionen: alle aus Getreidemühle +
+Eingabe: Erbsen
+Ausgabe: Erbsenmehl
+
+Eingabe: Erbsen
+Ausgabe: Mehl
+
+Eingabe: Mais
+Ausgabe: Maismehl
+
+Eingabe: Mais
+Ausgabe: Mehl
+
+Eingabe: Raps
+Ausgabe: Rapsmehl
+
+Eingabe: Raps
+Ausgabe: Mehl
+
+Eingabe: Sojabohnen
+Ausgabe: Sojamehl
+
+Eingabe: Sojabohnen
+Ausgabe: Mehl
+
+Eingabe: Sonnenblumen
+Ausgabe: Sonnenblumenmehl
+
+Eingabe: Sonnenblumen
+Ausgabe: Mehl
+
+Dabei sind die pflanzenspezifischen Mehlproduktionen ergiebiger, dennoch soll normales Mehl für die Verwendung in der Bäckerei möglich sein.
+
+Molkerei (erweitert):
+Kategorie: Platzierbar - Produktion
+Preis: 245.000
+Unterhalt: 110
+Produktionen: alle aus Molkerei +
+Eingabe: Milch+Zucker
+Ausgabe: Joghurt
+
+Eingabe: Milch+Zucker+Erdbeeren
+Ausgabe: Erdbeermilch
+
+Eingabe: Milch+Knoblauch
+Ausgabe: Knoblauchbutter
+
+
+Pflanzliche Milchproduktion:
+Kategorie: Platzierbar - Produktion
+Preis: 225.000
+Unterhalt: 85
+Produktionen:
+Eingabe: Erbsen
+Ausgabe: Erbsenmilch
+
+Eingabe: Hafer
+Ausgabe: Hafermilch
+
+Eingabe: Langkornreis
+Ausgabe: Reismilch
+
+Eingabe: Reis
+Ausgabe: Reismilch
+
+Eingabe: Sojabohnen
+Ausgabe: Sojamilch
+
+
+
+Es ist zu beachten, dass die HUD-Icons sowie auch die Paletten nicht optimal schön sind.
+
+Github: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+
+]]></de>
+<es><![CDATA[Contiene una serie de nuevas cadenas de producción, incluidos tres edificios y productos de producción.
+Nuevos productos:
+
+Harina de guisantes
+Harina de maíz
+Harina de colza
+Harina de soja
+Harina de girasol
+Mantequilla de ajo
+Yogur
+Leche de fresa
+Leche de guisantes
+Leche de avena
+Leche de arroz
+Leche de soja
+
+Molino de cereales (ampliado):
+
+Categoría: Colocables - Producción
+Precio: 325.000
+Mantenimiento: 120
+Producciones: Todo del molino de cereales +
+Entrada: Guisantes
+Salida: Harina de guisantes
+Entrada: Guisantes
+Salida: Harina
+Entrada: Maíz
+Salida: Harina de maíz
+Entrada: Maíz
+Salida: Harina
+Entrada: Colza
+Salida: Harina de colza
+Entrada: Colza
+Salida: Harina
+Entrada: Soja
+Salida: Harina de soja
+Entrada: Soja
+Salida: Harina
+Entrada: Girasoles
+Salida: Harina de girasol
+Entrada: Girasoles
+Salida: Harina
+
+Las producciones de harina específicas para plantas son más eficientes; sin embargo, la harina estándar todavía debe ser usable en la panadería.
+
+Lechería (ampliada):
+
+Categoría: Colocables - Producción
+Precio: 245.000
+Mantenimiento: 110
+Producciones: Todo de la lechería +
+Entrada: Leche + Azúcar
+Salida: Yogur
+Entrada: Leche + Azúcar + Fresas
+Salida: Leche de fresa
+Entrada: Leche + Ajo
+Salida: Mantequilla de ajo
+
+Producción de leche vegetal:
+
+Categoría: Colocables - Producción
+Precio: 225.000
+Mantenimiento: 85
+Producciones:
+Entrada: Guisantes
+Salida: Leche de guisantes
+Entrada: Avena
+Salida: Leche de avena
+Entrada: Arroz de grano largo
+Salida: Leche de arroz
+Entrada: Arroz
+Salida: Leche de arroz
+Entrada: Soja
+Salida: Leche de soja
+
+Nota: Los iconos HUD y los palets no están diseñados de forma óptima.
+
+GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+]]></es>
+<fr><![CDATA[Contient une série de nouvelles chaînes de production, y compris trois bâtiments de production et produits.
+Nouveaux produits :
+
+Farine de pois
+Farine de maïs
+Farine de colza
+Farine de soja
+Farine de tournesol
+Beurre à l’ail
+Yaourt
+Lait à la fraise
+Lait de pois
+Lait d’avoine
+Lait de riz
+Lait de soja
+
+Moulin à grains (étendu) :
+
+Catégorie : Positionnable - Production
+Prix : 325 000
+Entretien : 120
+Productions : Tout du moulin à grains +
+Entrée : Pois
+Sortie : Farine de pois
+Entrée : Pois
+Sortie : Farine
+Entrée : Maïs
+Sortie : Farine de maïs
+Entrée : Maïs
+Sortie : Farine
+Entrée : Colza
+Sortie : Farine de colza
+Entrée : Colza
+Sortie : Farine
+Entrée : Soja
+Sortie : Farine de soja
+Entrée : Soja
+Sortie : Farine
+Entrée : Tournesols
+Sortie : Farine de tournesol
+Entrée : Tournesols
+Sortie : Farine
+
+Les productions de farine spécifiques aux plantes sont plus efficaces ; cependant, la farine standard doit rester utilisable pour la boulangerie.
+
+Laiterie (étendue) :
+
+Catégorie : Positionnable - Production
+Prix : 245 000
+Entretien : 110
+Productions : Tout de la laiterie +
+Entrée : Lait + Sucre
+Sortie : Yaourt
+Entrée : Lait + Sucre + Fraises
+Sortie : Lait à la fraise
+Entrée : Lait + Ail
+Sortie : Beurre à l’ail
+
+Production de lait végétal :
+
+Catégorie : Positionnable - Production
+Prix : 225 000
+Entretien : 85
+Productions :
+Entrée : Pois
+Sortie : Lait de pois
+Entrée : Avoine
+Sortie : Lait d’avoine
+Entrée : Riz long
+Sortie : Lait de riz
+Entrée : Riz
+Sortie : Lait de riz
+Entrée : Soja
+Sortie : Lait de soja
+
+Remarque : Les icônes HUD et les palettes ne sont pas parfaitement conçues.
+
+GitHub : https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+]]></fr>
+<it><![CDATA[Contiene una serie di nuove catene produttive, inclusi tre edifici di produzione e prodotti.
+Nuovi beni:
+
+Farina di piselli
+Farina di mais
+Farina di colza
+Farina di soia
+Farina di girasole
+Burro all'aglio
+Yogurt
+Latte alla fragola
+Latte di piselli
+Latte di avena
+Latte di riso
+Latte di soia
+
+Mulino per cereali (esteso):
+
+Categoria: Posizionabile - Produzione
+Prezzo: 325.000
+Manutenzione: 120
+Produzioni: Tutto dal mulino per cereali +
+Input: Piselli
+Output: Farina di piselli
+Input: Piselli
+Output: Farina
+Input: Mais
+Output: Farina di mais
+Input: Mais
+Output: Farina
+Input: Colza
+Output: Farina di colza
+Input: Colza
+Output: Farina
+Input: Soia
+Output: Farina di soia
+Input: Soia
+Output: Farina
+Input: Girasoli
+Output: Farina di girasole
+Input: Girasoli
+Output: Farina
+
+Le produzioni di farina specifiche per le piante sono più efficienti; tuttavia, la farina normale dovrebbe essere ancora utilizzabile per il panificio.
+
+Caseificio (esteso):
+
+Categoria: Posizionabile - Produzione
+Prezzo: 245.000
+Manutenzione: 110
+Produzioni: Tutto dal caseificio +
+Input: Latte + Zucchero
+Output: Yogurt
+Input: Latte + Zucchero + Fragole
+Output: Latte alla fragola
+Input: Latte + Aglio
+Output: Burro all'aglio
+
+Produzione di latte vegetale:
+
+Categoria: Posizionabile - Produzione
+Prezzo: 225.000
+Manutenzione: 85
+Produzioni:
+Input: Piselli
+Output: Latte di piselli
+Input: Avena
+Output: Latte di avena
+Input: Riso a chicco lungo
+Output: Latte di riso
+Input: Riso
+Output: Latte di riso
+Input: Soia
+Output: Latte di soia
+
+Nota: Le icone HUD e i pallet non sono ottimamente progettati.
+
+GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+]]></it>
+    </description>
+	
+    <iconFilename>icon_extendedGoodsAndProductions.dds</iconFilename>
+	
+    <multiplayer supported="true"/>
+	
+  	<fillTypes filename="xml/eextendedGoodsAndProductionsFilltypes.xml" />
+	
+    <storeItems>
+		<storeItem xmlFilename="xml/pallets/maizeFlourBoxPallet.xml"/>
+		<storeItem xmlFilename="xml/pallets/soyFlourBoxPallet.xml"/>
+		<storeItem xmlFilename="xml/pallets/peasFlourBoxPallet.xml"/>
+		<storeItem xmlFilename="xml/pallets/canolaFlourBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/sunflowerFlourBoxPallet.xml"/>
+		<storeItem xmlFilename="xml/pallets/garlicButterBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/oatMilkBottlesBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/peaMilkBottlesBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/riceMilkBottlesBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/soyMilkBottlesBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/strawberryMilkBottlesBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/yoghurtBoxPallet.xml"/>
+
+		
+		<storeItem xmlFilename="xml/placeables/grainMill.xml"/>
+        <storeItem xmlFilename="xml/placeables/grainMilkProduction.xml"/>
+        <storeItem xmlFilename="xml/placeables/dairy.xml"/>
+    </storeItems>
+	
+	<l10n>
+        <text name="fillType_maizeFlour">
+            <en>Maize flour</en>
+            <de>Maismehl</de>
+            <es>Harina de maiz</es>
+            <fr>Farine de maïs</fr>
+            <it>Farina di mais</it>
+        </text>
+		<text name="fillType_soyFlour">
+            <en>Soy flour</en>
+            <de>Sojamehl</de>
+            <es>Harina de soja</es>
+            <fr>Farine de soja</fr>
+            <it>Farina di soia</it>
+        </text>
+		<text name="fillType_peasFlour">
+            <en>Peas flour</en>
+            <de>Erbsenmehl</de>
+            <es>Harina de guisantes</es>
+            <fr>Farine de pois</fr>
+            <it>Farina di piselli</it>
+        </text>
+		<text name="fillType_canolaFlour">
+            <en>Canola flour</en>
+            <de>Rapsmehl</de>
+            <es>Harina de colza</es>
+            <fr>Farine de colza</fr>
+            <it>Farina di colza</it>
+        </text>
+		<text name="fillType_sunflowerFlour">
+            <en>Sunflower flour</en>
+            <de>Sonnenblumenmehl</de>
+            <es>Harina de girasol</es>
+            <fr>Farine de tournesol</fr>
+            <it>Farina di girasole</it>
+        </text>
+        <text name="fillType_strawberryMilk_bottled">
+            <en>Strawberry milk (bottled)</en>
+            <de>Erdbeermilch (abgefüllt)</de>
+            <es>Leche de fresa (embotellado)</es>
+            <fr>Lait de fraise (en bouteille)</fr>
+            <it>Latte alla fragola (in bottiglia)</it>
+        </text>
+		<text name="fillType_yoghurt">
+            <en>Yoghurt</en>
+            <de>Joghurt</de>
+            <es>Yogur</es>
+            <fr>Yaourt</fr>
+            <it>Yogurt</it>
+        </text>
+		<text name="fillType_garlicButter">
+            <en>Garlic butter</en>
+            <de>Knoblauchbutter</de>
+            <es>Mantequilla de ajo</es>
+            <fr>Beurre à l'ail</fr>
+            <it>Burro all'aglio</it>
+        </text>
+		<text name="fillType_peaMilkBottled">
+            <en>Pea milk</en>
+            <de>Erbsenmilch (abgefüllt)</de>
+            <es>Leche de guisantes (embotellada)</es>
+            <fr>Lait de pois (en bouteille)</fr>
+            <it>Latte di piselli (in bottiglia)</it>
+        </text>
+		<text name="fillType_soyMilkBottled">
+            <en>Soy milk</en>
+            <de>Sojamilch (abgefüllt)</de>
+            <es>Leche de soja (embotellada)</es>
+            <fr>Lait de soja (en bouteille)</fr>
+            <it>Latte di soia (in bottiglia)</it>
+        </text>
+		<text name="fillType_riceMilkBottled">
+            <en>Rice milk</en>
+            <de>Reismilch (abgefüllt)</de>
+            <es>Leche de arroz (embotellada)</es>
+            <fr>Lait de riz (en bouteille)</fr>
+            <it>Latte di riso (in bottiglia)</it>
+        </text>
+		<text name="fillType_oatMilkBottled">
+            <en>Oat milk</en>
+            <de>Hafermilch (abgefüllt)</de>
+            <es>Leche de avena (embotellada)</es>
+            <fr>Lait d'avoine (en bouteille)</fr>
+            <it>Latte d'avena (in bottiglia)</it>
+        </text>
+		<text name="stationGrainMilkProduction">
+            <en>Plant Based Milk Production</en>
+            <de>Pflanzliche Milchproduktion</de>
+            <es>Producción de leche vegetal</es>
+            <fr>Production de lait végétal</fr>
+            <it>Produzione di latte vegetale</it>
+        </text>
+		<text name="stationExtendedDairy">
+            <en>Extended Dairy Production</en>
+            <de>Molkerei (erweitert)</de>
+            <es>Lácteos (ampliado)</es>
+            <fr>Produits laitiers (élargi)</fr>
+            <it>Latticini (ampliato)</it>
+        </text>
+		<text name="stationExtendedGrainMill">
+            <en>Extended Grain Mill</en>
+            <de>Getreidemühle (erweitert)</de>
+            <es>Molino de granos (ampliado)</es>
+            <fr>Moulin à grains (élargi)</fr>
+            <it>Mulino per cereali (ampliato)</it>
+        </text>
+	</l10n>
+</modDesc>
