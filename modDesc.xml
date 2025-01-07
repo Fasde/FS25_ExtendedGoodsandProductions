@@ -432,7 +432,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
 	
     <multiplayer supported="true"/>
 	
-  	<fillTypes filename="xml/eextendedGoodsAndProductionsFilltypes.xml" />
+  	<fillTypes filename="xml/extendedGoodsAndProductionsFilltypes.xml" />
 	
     <storeItems>
 		<storeItem xmlFilename="xml/pallets/maizeFlourBoxPallet.xml"/>
