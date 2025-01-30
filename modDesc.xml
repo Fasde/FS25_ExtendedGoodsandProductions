@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="94">
     <author>Fasde</author>
-    <version>1.0.0.0</version>
+    <version>1.1.0.0</version>
 	
     <title>
         <en>Extended Goods And Productions</en>
@@ -90,6 +90,10 @@ Output: Soy milk
 Note: The HUD icons and pallets are not optimally designed.
 
 GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+
+Update 1.1.0.0:
+- Fixed the products not being sellable as pallets
+- Fixed the price of strawberry milk
 
 ]]></en>
 <de><![CDATA[Enthält eine Reihe neuer Produktionsketten inklusive dreier Produktionsgebäude und Produkte.
@@ -187,6 +191,11 @@ Ausgabe: Sojamilch
 Es ist zu beachten, dass die HUD-Icons sowie auch die Paletten nicht optimal schön sind.
 
 Github: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+
+Update 1.1.0.0:
+- Paletten können jetzt auch verkauft werden
+- Erdbeermilch hat jetzt den korrekten Preis
+
 
 ]]></de>
 <es><![CDATA[Contiene una serie de nuevas cadenas de producción, incluidos tres edificios y productos de producción.
@@ -346,6 +355,10 @@ Sortie : Lait de soja
 Remarque : Les icônes HUD et les palettes ne sont pas parfaitement conçues.
 
 GitHub : https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+
+Update 1.1.0.0:
+- Correction des produits n'étant pas vendables en palettes
+- Correction du prix du lait à la fraise
 ]]></fr>
 <it><![CDATA[Contiene una serie di nuove catene produttive, inclusi tre edifici di produzione e prodotti.
 Nuovi beni:

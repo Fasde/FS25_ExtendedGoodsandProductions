@@ -115,7 +115,7 @@
 
             <!-- PLANT BASED MILKS-->
             <fillType name="OATMILK_BOTTLED" title="$l10n_fillType_oatMilkBottled" showOnPriceTable="true">
-                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
                 <economy pricePerLiter="3.200">
                     <factors>
                         <factor period="1"  value="1.00" />
@@ -136,7 +136,7 @@
                 <pallet	filename="xml/pallets/oatMilkBottlesBoxPallet.xml" />
             </fillType>
                     <fillType name="RICEMILK_BOTTLED" title="$l10n_fillType_riceMilkBottled" showOnPriceTable="true">
-                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
                 <economy pricePerLiter="1.110">
                     <factors>
                         <factor period="1"  value="1.00" />
@@ -157,7 +157,7 @@
                 <pallet	filename="xml/pallets/riceMilkBottlesBoxPallet.xml" />
             </fillType>
                     <fillType name="SOYMILK_BOTTLED" title="$l10n_fillType_soyMilkBottled" showOnPriceTable="true">
-                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
                 <economy pricePerLiter="3.860">
                     <factors>
                         <factor period="1"  value="1.00" />
@@ -178,7 +178,7 @@
                 <pallet	filename="xml/pallets/soyMilkBottlesBoxPallet.xml" />
             </fillType>
             <fillType name="PEAMILK_BOTTLED" title="$l10n_fillType_peaMilkBottled" showOnPriceTable="true">
-                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
                 <economy pricePerLiter="3.200">
                     <factors>
                         <factor period="1"  value="1.00" />
@@ -201,7 +201,7 @@
 
             <!-- Additional Dairy Products -->
             <fillType name="GARLICBUTTER" title="$l10n_fillType_garlicButter" showOnPriceTable="true">
-                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <physics massPerLiter="1.25" maxPhysicalSurfaceAngle="38" />
                 <economy pricePerLiter="1.500">
                     <factors>
                         <factor period="1"  value="1.00" />
@@ -222,7 +222,7 @@
                 <pallet	filename="xml/pallets/garlicButterBoxPallet.xml" />
             </fillType>
             <fillType name="YOGHURT" title="$l10n_fillType_yoghurt" showOnPriceTable="true">
-                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
+                <physics massPerLiter="0.5" maxPhysicalSurfaceAngle="38" />
                 <economy pricePerLiter="1.440">
                     <factors>
                         <factor period="1"  value="1.00" />
@@ -243,8 +243,8 @@
                 <pallet	filename="xml/pallets/yoghurtBoxPallet.xml" />
             </fillType>
             <fillType name="STRAWBERRYMILK_BOTTLED" title="$l10n_fillType_strawberryMilk_bottled" showOnPriceTable="true">
-                <physics massPerLiter="0.1" maxPhysicalSurfaceAngle="38" />
-                <economy pricePerLiter="7500">
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="6.500">
                     <factors>
                         <factor period="1"  value="1.00" />
                         <factor period="2"  value="1.07" />
@@ -267,5 +267,7 @@
 
     <fillTypeCategories>
         <fillTypeCategory name="PRODUCT">MAIZEFLOUR SOYFLOUR PEASFLOUR GRANOLAFLOUR SUNFLOWERFLOUR STRAWBERRYMILK_BOTTLED YOGHURT GARLICBUTTER OATMILK_BOTTLED SOYMILK_BOTTLED RICEMILK_BOTTLED PEAMILK_BOTTLED</fillTypeCategory>
-	</fillTypeCategories>	
+<fillTypeCategory name="SELLINGSTATION_PRODUCTSFOOD">MAIZEFLOUR SOYFLOUR PEASFLOUR GRANOLAFLOUR SUNFLOWERFLOUR STRAWBERRYMILK_BOTTLED YOGHURT GARLICBUTTER OATMILK_BOTTLED SOYMILK_BOTTLED RICEMILK_BOTTLED PEAMILK_BOTTLED</fillTypeCategory>
+	</fillTypeCategories>
+	
 </map>
