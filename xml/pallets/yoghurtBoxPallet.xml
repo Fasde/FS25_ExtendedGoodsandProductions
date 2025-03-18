@@ -4,15 +4,12 @@
     <storeData>
         <name>$l10n_fillType_yoghurt</name>
         <price>1440</price>
-        <image>textures/store_empty.dds</image>
+        <image>$data/objects/pallets/butterBoxPallet/store_butterBoxPallet.png</image>
         <brand>NONE</brand>
         <category>pallets</category>
-        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
-        <textureMemoryUsage>0</textureMemoryUsage>
-        <audioMemoryUsage>0</audioMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <showInStore>false</showInStore>
+        <canBeSold>false</canBeSold>
+        <financeCategory>OTHER</financeCategory>
     </storeData>
 
     <base>

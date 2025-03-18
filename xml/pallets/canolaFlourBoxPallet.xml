@@ -4,9 +4,6 @@
         <attributes>
             <set path="vehicle.storeData.name"        value="$l10n_fillType_canolaFlour"/>
             <set path="vehicle.storeData.price"       value="3185"/>
-            <set path="vehicle.storeData.image"       value="$data/store/store_empty.png"/>
-            <set path="vehicle.storeData.showInStore" value="false"/>
-
             <set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration(0).fillUnits.fillUnit#fillTypes"     value="CANOLAFLOUR"/>
             <set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration(0).fillUnits.fillUnit#startFillType" value="CANOLAFLOUR"/>
 			
@@ -17,14 +14,17 @@
 
     <storeData>
         <name>$l10n_fillType_canolaFlour</name>
-        <image>$data/store/store_empty.png</image>
+        <price>3185</price>
+        <!--<image>textures/store/store_canolaFlourBoxPallet.png</image>-->
+        <image>$data/objects/pallets/flourPallet/store_flourBoxPallet.png</image>
         <brand>NONE</brand>
         <category>pallets</category>
-        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
-        <textureMemoryUsage>0</textureMemoryUsage>
-        <audioMemoryUsage>0</audioMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <showInStore>false</showInStore>
+        <canBeSold>false</canBeSold>
+        <financeCategory>OTHER</financeCategory>
+
+        <storeIconRendering>
+            <settings centerIcon="true" cameraXRot="-15" cameraYRot="35"/>
+        </storeIconRendering>
     </storeData>
 </vehicle>
