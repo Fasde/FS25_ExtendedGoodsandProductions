@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="95">
+<modDesc descVersion="96">
     <author>Fasde</author>
     <version>1.0.0.0</version>
 	
     <title>
         <en>Extended Goods And Productions</en>
-        <de>(TEST) Erweiterte Güter Und Produktionsketten</de>
+        <de>Erweiterte Güter Und Produktionsketten</de>
         <es>Bienes Avanzados Y Producciónes</es>
         <fr>Biens Et Poduction Avancés</fr>
         <it>Beni Avanzati E Produzione</it>
