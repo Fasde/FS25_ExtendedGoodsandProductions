@@ -9,6 +9,7 @@
         <es>Bienes Avanzados Y Producciónes</es>
         <fr>Biens Et Poduction Avancés</fr>
         <it>Beni Avanzati E Produzione</it>
+		<cz>Rozšířené zboží a produkce</en>
     </title>
 	
     <description>
@@ -460,6 +461,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de maiz</es>
             <fr>Farine de maïs</fr>
             <it>Farina di mais</it>
+			<cz>Kukuřičná mouka</en>
         </text>
 		<text name="fillType_soyFlour">
             <en>Soy flour</en>
@@ -467,6 +469,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de soja</es>
             <fr>Farine de soja</fr>
             <it>Farina di soia</it>
+			<cz>Sójová mouka</en>
         </text>
 		<text name="fillType_peasFlour">
             <en>Peas flour</en>
@@ -474,6 +477,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de guisantes</es>
             <fr>Farine de pois</fr>
             <it>Farina di piselli</it>
+			<cz>Hrachová mouka</en>
         </text>
 		<text name="fillType_canolaFlour">
             <en>Canola flour</en>
@@ -481,6 +485,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de colza</es>
             <fr>Farine de colza</fr>
             <it>Farina di colza</it>
+			<cz>Řepková mouka</en>
         </text>
 		<text name="fillType_sunflowerFlour">
             <en>Sunflower flour</en>
@@ -488,6 +493,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de girasol</es>
             <fr>Farine de tournesol</fr>
             <it>Farina di girasole</it>
+			<cz>Slunečnicová mouka</en>
         </text>
         <text name="fillType_strawberryMilk_bottled">
             <en>Strawberry milk (bottled)</en>
@@ -495,6 +501,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Leche de fresa (embotellado)</es>
             <fr>Lait de fraise (en bouteille)</fr>
             <it>Latte alla fragola (in bottiglia)</it>
+			<cz>Jahodové mléko (balené)</en>
         </text>
 		<text name="fillType_yoghurt">
             <en>Yoghurt</en>
@@ -502,6 +509,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Yogur</es>
             <fr>Yaourt</fr>
             <it>Yogurt</it>
+			<cz>Jogurt</en>
         </text>
 		<text name="fillType_garlicButter">
             <en>Garlic butter</en>
@@ -509,6 +517,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Mantequilla de ajo</es>
             <fr>Beurre à l'ail</fr>
             <it>Burro all'aglio</it>
+			<cz>Česnekové máslo</en>
         </text>
 		<text name="fillType_peaMilkBottled">
             <en>Pea milk</en>
@@ -516,6 +525,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Leche de guisantes (embotellada)</es>
             <fr>Lait de pois (en bouteille)</fr>
             <it>Latte di piselli (in bottiglia)</it>
+			<cz>Hrachové mléko</en>
         </text>
 		<text name="fillType_soyMilkBottled">
             <en>Soy milk</en>
@@ -523,6 +533,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Leche de soja (embotellada)</es>
             <fr>Lait de soja (en bouteille)</fr>
             <it>Latte di soia (in bottiglia)</it>
+			<cz>Sójové mléko</en>
         </text>
 		<text name="fillType_riceMilkBottled">
             <en>Rice milk</en>
@@ -530,6 +541,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Leche de arroz (embotellada)</es>
             <fr>Lait de riz (en bouteille)</fr>
             <it>Latte di riso (in bottiglia)</it>
+			<cz>Rýžové mléko</en>
         </text>
 		<text name="fillType_oatMilkBottled">
             <en>Oat milk</en>
@@ -537,6 +549,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Leche de avena (embotellada)</es>
             <fr>Lait d'avoine (en bouteille)</fr>
             <it>Latte d'avena (in bottiglia)</it>
+			<cz>Ovesné mléko</en>
         </text>
 		<text name="stationGrainMilkProduction">
             <en>Plant Based Milk Production</en>
@@ -544,6 +557,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Producción de leche vegetal</es>
             <fr>Production de lait végétal</fr>
             <it>Produzione di latte vegetale</it>
+			<cz>Výroba mléka na rostlinné bázi</en>
         </text>
 		<text name="stationExtendedDairy">
             <en>Extended Dairy Production</en>
@@ -551,6 +565,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Lácteos (ampliado)</es>
             <fr>Produits laitiers (élargi)</fr>
             <it>Latticini (ampliato)</it>
+			<cz>Rozšířená mlékárna</en>
         </text>
 		<text name="stationExtendedGrainMill">
             <en>Extended Grain Mill</en>
@@ -558,6 +573,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Molino de granos (ampliado)</es>
             <fr>Moulin à grains (élargi)</fr>
             <it>Mulino per cereali (ampliato)</it>
+			<cz>Rozšířený obilný mlýn</en>
         </text>
 	</l10n>
 </modDesc>
