@@ -263,10 +263,115 @@
                 <image	hud="textures/hud_fill_strawberryMilkBottled.dds" />
                 <pallet	filename="xml/pallets/strawberryMilkBottlesBoxPallet.xml" />
             </fillType>
+            <fillType name="WHEY" title="$l10n_fillType_whey" showOnPriceTable="true">
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="27">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_whey.dds" />
+                <pallet	filename="xml/pallets/wheyBoxPallet.xml" />
+            </fillType>
+            <fillType name="VEGANSCHNITZEL" title="$l10n_fillType_veganSchnitzel" showOnPriceTable="true">
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="8000">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_veganSchnitzel.dds" />
+                <pallet	filename="xml/pallets/veganSchnitzelBoxPallet.xml" />
+            </fillType>
+            <fillType name="VEGGIEBALLS" title="$l10n_fillType_veggieballs" showOnPriceTable="true">
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="6700">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_veggieBalls.dds" />
+                <pallet	filename="xml/pallets/veggieBallsBoxPallet.xml" />
+            </fillType>
+            <fillType name="SEITAN" title="$l10n_fillType_seitan" showOnPriceTable="true">
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="4100">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_seitan.dds" />
+                <pallet	filename="xml/pallets/seitanBoxPallet.xml" />
+            </fillType>
+            <fillType name="TOFU" title="$l10n_fillType_tofu" showOnPriceTable="true">
+                <physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+                <economy pricePerLiter="7200">
+                    <factors>
+                        <factor period="1"  value="1.00" />
+                        <factor period="2"  value="1.07" />
+                        <factor period="3"  value="0.99" />
+                        <factor period="4"  value="0.94" />
+                        <factor period="5"  value="0.85" />
+                        <factor period="6"  value="0.81" />
+                        <factor period="7"  value="0.86" />
+                        <factor period="8"  value="0.99" />
+                        <factor period="9"  value="1.08" />
+                        <factor period="10" value="1.13" />
+                        <factor period="11" value="1.21" />
+                        <factor period="12" value="1.08" />
+                    </factors>
+                </economy>
+                <image	hud="textures/hud_fill_tofu.dds" />
+                <pallet	filename="xml/pallets/tofuBoxPallet.xml" />
+            </fillType>
     </fillTypes>
 
     <fillTypeCategories>
-        <fillTypeCategory name="PRODUCT">MAIZEFLOUR SOYFLOUR PEASFLOUR CANOLAFLOUR SUNFLOWERFLOUR STRAWBERRYMILK_BOTTLED YOGHURT GARLICBUTTER OATMILK_BOTTLED SOYMILK_BOTTLED RICEMILK_BOTTLED PEAMILK_BOTTLED</fillTypeCategory>
-        <fillTypeCategory name="SELLINGSTATION_PRODUCTSFOOD">MAIZEFLOUR SOYFLOUR PEASFLOUR CANOLAFLOUR SUNFLOWERFLOUR STRAWBERRYMILK_BOTTLED YOGHURT GARLICBUTTER OATMILK_BOTTLED SOYMILK_BOTTLED RICEMILK_BOTTLED PEAMILK_BOTTLED</fillTypeCategory>
+        <fillTypeCategory name="PRODUCT">MAIZEFLOUR SOYFLOUR PEASFLOUR CANOLAFLOUR SUNFLOWERFLOUR STRAWBERRYMILK_BOTTLED YOGHURT GARLICBUTTER OATMILK_BOTTLED SOYMILK_BOTTLED RICEMILK_BOTTLED PEAMILK_BOTTLED WHEY VEGANSCHNITZEL VEGGIEBALLS SEITAN TOFU</fillTypeCategory>
+        <fillTypeCategory name="SELLINGSTATION_PRODUCTSFOOD">MAIZEFLOUR SOYFLOUR PEASFLOUR CANOLAFLOUR SUNFLOWERFLOUR STRAWBERRYMILK_BOTTLED YOGHURT GARLICBUTTER OATMILK_BOTTLED SOYMILK_BOTTLED RICEMILK_BOTTLED PEAMILK_BOTTLED WHEY VEGANSCHNITZEL VEGGIEBALLS SEITAN TOFU</fillTypeCategory>
     </fillTypeCategories>
 </map>

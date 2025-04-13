@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="veganSchnitzelBoxPallet" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="1" filename="../textures/veganSchnitzelBox_diffuse.dds" />
+    <File fileId="2" filename="$data/objects/pallets/butterBoxPallet/butterBox_normal.png" />
+    <File fileId="3" filename="$data/objects/pallets/butterBoxPallet/butterBox_specular.png" />
+  </Files>
+
+  <Materials>
+    <Material name="lambert1" materialId="1" diffuseColor="0.5 0.5 0.5 1">
+    </Material>
+    <Material name="butterBox_mat" materialId="2">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="butterBoxPallet.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="butterBoxPallet_component1" shapeId="1" dynamic="true" compound="true" staticFriction="1" dynamicFriction="1" density="0" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" clipDistance="150" nodeId="1">
+      <Shape name="dynamicMountTrigger" translation="0 0.090475 0" shapeId="2" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x20000" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="2"/>
+      <TransformGroup name="content" nodeId="3">
+        <Shape name="butterBox01" translation="-0.303998 0.145827 -0.197137" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="2" skinBindNodeIds="4 6 8 10 12 14 16 18 20 22 24 26" nodeId="4">
+          <Shape name="butterBox01Tension" translation="-0.000002 0.000173 -0.00266" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="5"/>
+        </Shape>
+        <TransformGroup name="butterBox02" translation="-0.302418 0.145827 0.204286" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="6">
+          <Shape name="butterBox02Tension" translation="-0.001582 0.000173 -0.002267" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="7"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox03" translation="0.297613 0.145033 -0.197137" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="8">
+          <Shape name="butterBox03Tension" translation="-0.00074 0.000967 -0.00266" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="9"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox04" translation="0.299194 0.145033 0.204286" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="10">
+          <Shape name="butterBox04Tension" translation="-0.00232 0.000967 -0.002267" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="11"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox05" translation="-0.303998 0.346826 -0.197137" rotation="0 180 0" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="12">
+          <Shape name="butterBox05Tension" translation="0.000002 -0.000087 0.00266" rotation="0 180 0" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="13"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox06" translation="-0.302418 0.346826 0.204286" rotation="0 180 0" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="14">
+          <Shape name="butterBox06Tension" translation="0.001582 -0.000087 0.002267" rotation="0 180 0" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="15"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox07" translation="0.297613 0.346032 -0.197137" rotation="0 180 0" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="16">
+          <Shape name="butterBox07Tension" translation="0.00074 0.000707 0.00266" rotation="0 180 0" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="17"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox08" translation="0.299194 0.346032 0.204286" rotation="0 180 0" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="18">
+          <Shape name="butterBox08Tension" translation="0.00232 0.000707 0.002267" rotation="0 180 0" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="19"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox09" translation="-0.303998 0.547071 -0.197137" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="20">
+          <Shape name="butterBox09Tension" translation="-0.000002 -0.000393 -0.00266" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="21"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox10" translation="-0.302418 0.547071 0.204286" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="22">
+          <Shape name="butterBox10Tension" translation="-0.001582 -0.000393 -0.002267" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="23"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox11" translation="0.297613 0.546277 -0.197137" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="24">
+          <Shape name="butterBox11Tension" translation="-0.00074 0.000401 -0.00266" shapeId="4" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="25"/>
+        </TransformGroup>
+        <TransformGroup name="butterBox12" translation="0.299194 0.546277 0.204286" collision="false" density="0" collisionFilterMask="0xfe3ffb83" nodeId="26">
+          <Shape name="butterBox12Tension" translation="-0.00232 0.000401 -0.404083" shapeId="5" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="27"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="collisions" collision="false" clipDistance="10" nodeId="28">
+        <Shape name="floorCollision01" translation="-0.3 0 0" shapeId="6" compoundChild="true" staticFriction="1" dynamicFriction="1" density="0" collisionFilterGroup="0x10000" collisionFilterMask="0xfe3dfb83" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="29"/>
+        <Shape name="floorCollision02" translation="0.3 0 0" shapeId="7" compoundChild="true" staticFriction="1" dynamicFriction="1" density="0" collisionFilterGroup="0x10000" collisionFilterMask="0xfe3dfb83" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="30"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

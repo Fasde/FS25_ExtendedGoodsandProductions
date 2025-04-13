@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="pallet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <parentFile xmlFilename="$data/objects/pallets/flourPallet/flourBoxPallet.xml">
+        <attributes>
+            <set path="vehicle.storeData.name"        value="$l10n_fillType_whey"/>
+            <set path="vehicle.storeData.price"       value="3185"/>
+            <set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration(0).fillUnits.fillUnit#fillTypes"     value="WHEY"/>
+            <set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration(0).fillUnits.fillUnit#startFillType" value="WHEY"/>
+			
+			<set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration(0).fillUnits.fillUnit.fillTypeMaterials.material#fillType" value="WHEY"/>
+			<set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration(0).fillUnits.fillUnit.fillTypeMaterials.material#diffuse" 	value="textures/wheyBox_diffuse.dds"/>
+         </attributes>
+    </parentFile>
+
+    <storeData>
+        <name>$l10n_fillType_whey</name>
+        <price>27000</price>
+        <image>$data/objects/pallets/flourPallet/store_flourBoxPallet.png</image>
+        <brand>NONE</brand>
+        <category>pallets</category>
+        <showInStore>false</showInStore>
+        <canBeSold>false</canBeSold>
+        <financeCategory>OTHER</financeCategory>
+
+        <storeIconRendering>
+            <settings centerIcon="true" cameraXRot="-15" cameraYRot="35"/>
+        </storeIconRendering>
+    </storeData>
+</vehicle>

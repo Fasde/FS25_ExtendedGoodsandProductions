@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="productionPoint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_stationPlantBasedProteinFactory</name>
+        <functions>
+            <function>$l10n_function_productionPoint</function>
+        </functions>
+        <image>$data/placeables/brandless/productionPointsGeneric/oilMill/store_oilMill.png</image>
+        <price>195000</price>
+        <dailyUpkeep>40</dailyUpkeep>
+        <lifetime>2000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>productionPoints</category>
+        <brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>factories</tab>
+        </brush>
+    </storeData>
+
+    <base>
+        <filename>$data/placeables/brandless/productionPointsGeneric/oilMill/oilMill.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+            <testArea startNode="testAreaStart01" endNode="testAreaEnd01" />
+        </testAreas>
+        <sounds>
+            <place template="smallImp"/>
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30" >
+        <levelAreas>
+            <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01" groundType="asphalt"/>
+        </levelAreas>
+        <paintAreas>
+            <paintArea startNode="paintAreaStart01" widthNode="paintAreaWidth01" heightNode="paintAreaHeight01" groundType="asphalt"/>
+        </paintAreas>
+    </leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorAreaStart01" widthNode="indoorAreaWidth01" heightNode="indoorAreaHeight01" />
+        <indoorArea startNode="indoorAreaStart02" widthNode="indoorAreaWidth02" heightNode="indoorAreaHeight02" />
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+        </updateAreas>
+    </ai>
+
+    <infoTrigger triggerNode="infoTrigger" />
+
+    <triggerMarkers>
+        <triggerMarker node="warningStripes01"/>
+        <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true"/>
+        <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIconWrench.i3d"/>
+    </triggerMarkers>
+
+    <dynamicallyLoadedParts>
+        <dynamicallyLoadedPart filename="$data/placeables/shared/sellingStationGeneric/sellingStationGenericNoCover.i3d" linkNode="unloadTriggerLinkNode" />
+        <dynamicallyLoadedPart filename="$data/effects/chimneySmoke/smokeTrailSubUV.i3d"                              node="1" linkNode="smokeBig" shaderParameterName="colorAlpha" shaderParameter="1 1 1 1"/>
+        <dynamicallyLoadedPart filename="$data/placeables/brandless/productionPointsGeneric/oilMill/oilMillProps.i3d" node="0" linkNode="props"/>
+    </dynamicallyLoadedParts>
+
+    <hotspots>
+        <hotspot type="PRODUCTION_POINT" linkNode="unloadTriggerMarker" teleportNode="playerTriggerMarker" />
+    </hotspots>
+
+    <productionPoint>
+        <productions>
+            <production id="soywhey" name="%s (%s)"  params="$l10n_fillType_whey|$l10n_fillType_soybean" cyclesPerHour="5000" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="SOYBEAN" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="WHEY" amount="1" />
+                </outputs>
+            </production>
+            <production id="peawhey" name="%s (%s)"  params="$l10n_fillType_whey|$l10n_fillType_pea" cyclesPerHour="500" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="PEA" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="WHEY" amount="1" />
+                </outputs>
+            </production>
+            <production id="peaschnitzel" name="%s (%s)" params="$l10n_fillType_veganSchnitzel|$l10n_fillType_pea" cyclesPerHour="140" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="PEA" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="VEGANSCHNITZEL" amount="10" />
+                </outputs>
+            </production>
+            <production id="soyschnitzel" name="%s (%s)" params="$l10n_fillType_veganSchnitzel|$l10n_fillType_soybean" cyclesPerHour="140" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="SOYBEAN" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="VEGANSCHNITZEL" amount="10" />
+                </outputs>
+            </production>
+            <production id="wheatschnitzel" name="%s (%s)" params="$l10n_fillType_veganSchnitzel|$l10n_fillType_wheat" cyclesPerHour="160" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="WHEAT" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="VEGANSCHNITZEL" amount="10" />
+                </outputs>
+            </production>
+            <production id="veggieballs" name="$l10n_fillType_veggieballs" cyclesPerHour="25" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="PEA" amount="60" />
+                    <input fillType="SPRING_ONION" amount="20" />
+                    <input fillType="CHILLI" amount="20" />
+                </inputs>
+                <outputs>
+                    <output fillType="VEGGIEBALLS" amount="100" />
+                </outputs>
+            </production>
+            <production id="seitan" name="$l10n_fillType_seitan" cyclesPerHour="170" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="WHEAT" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="SEITAN" amount="8" />
+                </outputs>
+            </production>
+            <production id="tofu" name="$l10n_fillType_tofu" cyclesPerHour="170" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="SOYBEAN" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="TOFU" amount="7" />
+                </outputs>
+            </production>
+        </productions>
+
+        <storage isExtension="false" fillLevelSyncThreshold="50">
+            <capacity fillType="SOYBEAN"        capacity="100000" />
+            <capacity fillType="PEA"        capacity="100000" />
+            <capacity fillType="WHEAT"      capacity="100000" />
+            <capacity fillType="CHILLI"     capacity="100000" />
+            <capacity fillType="SPRING_ONION"      capacity="100000" />
+
+            <capacity fillType="WHEY"               capacity="30000" />
+            <capacity fillType="VEGANSCHNITZEL"     capacity="30000" />
+            <capacity fillType="VEGGIEBALLS"        capacity="30000" />
+            <capacity fillType="SEITAN"             capacity="30000" />
+            <capacity fillType="TOFU"               capacity="30000" />
+        </storage>
+
+        <sellingStation node="sellingStation" supportsExtension="false">
+            <unloadTrigger exactFillRootNode="exactFillNode" aiNode="unloadTriggerAINode" fillTypes="SOYBEAN PEA WHEAT CHILLI SPRING_ONION"/>
+        </sellingStation>
+
+        <palletSpawner>
+            <spawnPlaces>
+                <spawnPlace startNode="palletAreaStart01" endNode="palletAreaEnd01"/>
+                <spawnPlace startNode="palletAreaStart02" endNode="palletAreaEnd02"/>
+                <spawnPlace startNode="palletAreaStart03" endNode="palletAreaEnd03"/>
+            </spawnPlaces>
+        </palletSpawner>
+
+        <playerTrigger node="playerTrigger" />
+        <sounds>
+            <idle   template="oilPlantIdle" linkNode="0>" pitchScale="1.0"/>
+            <active template="oilPlantWork" linkNode="0>" pitchScale="1.0"/>
+        </sounds>
+    </productionPoint>
+
+    <i3dMappings>
+        <i3dMapping id="clearAreaStart01" node="0>0|0" />
+        <i3dMapping id="clearAreaWidth01" node="0>0|0|0" />
+        <i3dMapping id="clearAreaHeight01" node="0>0|0|1" />
+        <i3dMapping id="levelAreaStart01" node="0>1|0" />
+        <i3dMapping id="levelAreaWidth01" node="0>1|0|0" />
+        <i3dMapping id="levelAreaHeight01" node="0>1|0|1" />
+        <i3dMapping id="paintAreaStart01" node="0>2|0" />
+        <i3dMapping id="paintAreaWidth01" node="0>2|0|0" />
+        <i3dMapping id="paintAreaHeight01" node="0>2|0|1" />
+        <i3dMapping id="indoorAreaStart01" node="0>3|0" />
+        <i3dMapping id="indoorAreaWidth01" node="0>3|0|0" />
+        <i3dMapping id="indoorAreaHeight01" node="0>3|0|1" />
+        <i3dMapping id="indoorAreaStart02" node="0>3|1" />
+        <i3dMapping id="indoorAreaWidth02" node="0>3|1|0" />
+        <i3dMapping id="indoorAreaHeight02" node="0>3|1|1" />
+        <i3dMapping id="testAreaStart01" node="0>4|0" />
+        <i3dMapping id="testAreaEnd01" node="0>4|0|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaStart01" node="0>5|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaEnd01" node="0>5|0|0" />
+        <i3dMapping id="infoTrigger" node="0>7" />
+        <i3dMapping id="sellingStation" node="0>8" />
+        <i3dMapping id="exactFillNode" node="0>8|0" />
+        <i3dMapping id="unloadTriggerMarker" node="0>8|1" />
+        <i3dMapping id="unloadTriggerAINode" node="0>8|2" />
+        <i3dMapping id="unloadTriggerLinkNode" node="0>8|3" />
+        <i3dMapping id="playerTrigger" node="0>9|0" />
+        <i3dMapping id="playerTriggerMarker" node="0>9|1" />
+        <i3dMapping id="warningStripes01" node="0>10|0" />
+        <i3dMapping id="palletSpawner" node="0>11" />
+        <i3dMapping id="palletAreaStart01" node="0>11|0" />
+        <i3dMapping id="palletAreaEnd01" node="0>11|0|0" />
+        <i3dMapping id="palletAreaStart02" node="0>11|1" />
+        <i3dMapping id="palletAreaEnd02" node="0>11|1|0" />
+        <i3dMapping id="palletAreaStart03" node="0>11|2" />
+        <i3dMapping id="palletAreaEnd03" node="0>11|2|0" />
+        <i3dMapping id="smokeBig" node="0>12|1" />
+        <i3dMapping id="props" node="0>12|2" />
+    </i3dMappings>
+</placeable>
+

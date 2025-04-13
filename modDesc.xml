@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="96">
+<modDesc descVersion="97">
     <author>Fasde</author>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
 	
     <title>
         <en>Extended Goods And Productions</en>
@@ -9,7 +9,7 @@
         <es>Bienes Avanzados Y Producciónes</es>
         <fr>Biens Et Poduction Avancés</fr>
         <it>Beni Avanzati E Produzione</it>
-		<cz>Rozšířené zboží a produkce</en>
+		<cz>Rozšířené Zboží A Produkce</cz>
     </title>
 	
     <description>
@@ -28,6 +28,11 @@ Pea milk
 Oat milk
 Rice milk
 Soy milk
+Whey
+Vegan schnitzel
+Vegetable balls
+Seitan
+Tofu
 
 Grain Mill (Extended):
 
@@ -88,112 +93,143 @@ Output: Rice milk
 Input: Soybeans
 Output: Soy milk
 
-Note: The HUD icons and pallets are not optimally designed.
+Plant-Based Protein Factory
+Price: 195,000
+Maintenance: 40
+Productions:
+Input: Soy / Peas
+Output: Whey
+Input: Peas / Soy / Wheat
+Output: Vegan Schnitzel
+Input: Peas & Onion & Chili
+Output: Vegetable Balls
+Input: Wheat
+Output: Seitan
+Input: Soy
+Output: Tofu
+
+Changelog:
+1.0.1.0
+- Added czech names
+- Corrected the german names for milk-alternatives to "drink" instead of "milk"
+- Added the new Plant-Based Protein Factory with new Productions and new Goods
+
+
+Note: The HUD icons and pallets may not be optimally designed.
 
 GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
 ]]></en>
-<de><![CDATA[Enthält eine Reihe neuer Produktionsketten inklusive dreier Produktionsgebäude und Produkte.
-Neue Güter:
+<de><![CDATA[Enthält eine Reihe neuer Produktionsketten, darunter drei Produktionsgebäude und Produkte.
+Neue Waren:
+
 Erbsenmehl
 Maismehl
 Rapsmehl
 Sojamehl
 Sonnenblumenmehl
-
 Knoblauchbutter
 Joghurt
 Erdbeermilch
-
 Erbsenmilch
 Hafermilch
 Reismilch
 Sojamilch
+Molke
+Veganes Schnitzel
+Gemüsebällchen
+Seitan
+Tofu
 
+Getreidemühle (Erweitert):
 
-Getreidemühle (erweitert):
-Kategorie: Platzierbar - Produktion
+Kategorie: Platzierbar – Produktion
 Preis: 325.000
-Unterhalt: 120
-Produktionen: alle aus Getreidemühle +
-Eingabe: Erbsen
-Ausgabe: Erbsenmehl
+Wartung: 120
+Produktionen: Alle aus der Getreidemühle +
+Input: Erbsen
+Output: Erbsenmehl
+Input: Erbsen
+Output: Mehl
+Input: Mais
+Output: Maismehl
+Input: Mais
+Output: Mehl
+Input: Raps
+Output: Rapsmehl
+Input: Raps
+Output: Mehl
+Input: Sojabohnen
+Output: Sojamehl
+Input: Sojabohnen
+Output: Mehl
+Input: Sonnenblumen
+Output: Sonnenblumen Mehl
+Input: Sonnenblumen
+Output: Mehl
 
-Eingabe: Erbsen
-Ausgabe: Mehl
+Die pflanzenspezifische Mehlproduktion ist effizienter; Standardmehl sollte jedoch weiterhin für die Bäckerei verwendbar sein.
 
-Eingabe: Mais
-Ausgabe: Maismehl
+Molkerei (Erweitert):
 
-Eingabe: Mais
-Ausgabe: Mehl
-
-Eingabe: Raps
-Ausgabe: Rapsmehl
-
-Eingabe: Raps
-Ausgabe: Mehl
-
-Eingabe: Sojabohnen
-Ausgabe: Sojamehl
-
-Eingabe: Sojabohnen
-Ausgabe: Mehl
-
-Eingabe: Sonnenblumen
-Ausgabe: Sonnenblumenmehl
-
-Eingabe: Sonnenblumen
-Ausgabe: Mehl
-
-Dabei sind die pflanzenspezifischen Mehlproduktionen ergiebiger, dennoch soll normales Mehl für die Verwendung in der Bäckerei möglich sein.
-
-Molkerei (erweitert):
-Kategorie: Platzierbar - Produktion
+Kategorie: Platzierbar – Produktion
 Preis: 245.000
-Unterhalt: 110
-Produktionen: alle aus Molkerei +
-Eingabe: Milch+Zucker
-Ausgabe: Joghurt
+Wartung: 110
+Produktion: Alle Produkte der Molkerei +
+Input: Milch + Zucker
+Output: Joghurt
+Input: Milch + Zucker + Erdbeeren
+Output: Erdbeermilch
+Input: Milch + Knoblauch
+Output: Knoblauchbutter
 
-Eingabe: Milch+Zucker+Erdbeeren
-Ausgabe: Erdbeermilch
+Pflanzenmilchproduktion:
 
-Eingabe: Milch+Knoblauch
-Ausgabe: Knoblauchbutter
-
-
-Pflanzliche Milchproduktion:
-Kategorie: Platzierbar - Produktion
+Kategorie: Platzierbar – Produktion
 Preis: 225.000
-Unterhalt: 85
-Produktionen:
-Eingabe: Erbsen
-Ausgabe: Erbsenmilch
+Wartung: 85
+Produktion:
+Input: Erbsen
+Output: Erbsedrink
+Input: Hafer
+Output: Haferdrink
+Input: Langkornreis
+Output: Reisdrink
+Input: Reis
+Output: Reisdrink
+Input: Sojabohnen
+Output: Sojadrink
 
-Eingabe: Hafer
-Ausgabe: Hafermilch
+Pflanzenproteinfabrik
 
-Eingabe: Langkornreis
-Ausgabe: Reismilch
+Kategorie: Platzierbar – Produktion
+Preis: 195.000
+Wartung: 40
+Produktion:
+Input: Soja / Erbsen
+Ausgabe: Molke
+Eingabe: Erbsen / Soja / Weizen
+Ausgabe: Veganes Schnitzel
+Eingabe: Erbsen & Zwiebeln & Chili
+Ausgabe: Gemüsebällchen
+Eingabe: Weizen
+Ausgabe: Seitan
+Eingabe: Soja
+Ausgabe: Tofu
 
-Eingabe: Reis
-Ausgabe: Reismilch
+Änderungsprotokoll:
+1.0.1.0
+- Tschechische Namen hinzugefügt
+- Die deutschen Namen für Milchalternativen wurden von „Milch“ zu „Drink“ korrigiert.
+- Die neue Fabrik für pflanzliche Proteine ​​mit neuen Produktionen und neuen Waren wurde hinzugefügt.
 
-Eingabe: Sojabohnen
-Ausgabe: Sojamilch
+Hinweis: Die HUD-Symbole und Paletten sind möglicherweise nicht optimal gestaltet.
 
-
-
-Es ist zu beachten, dass die HUD-Icons sowie auch die Paletten nicht optimal schön sind.
-
-Github: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
-]]></de>
-<es><![CDATA[Contiene una serie de nuevas cadenas de producción, incluidos tres edificios y productos de producción.
-Nuevos productos:
+GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions]]></de>
+<es><![CDATA[Contiene una serie de nuevas cadenas de producción, incluyendo tres edificios de producción y productos. Productos nuevos:
 
 Harina de guisantes
 Harina de maíz
-Harina de colza
+Harina de canola
 Harina de soja
 Harina de girasol
 Mantequilla de ajo
@@ -203,172 +239,225 @@ Leche de guisantes
 Leche de avena
 Leche de arroz
 Leche de soja
+Suero de leche
+Escalope vegano
+Albóndigas de verduras
+Seitán
+Tofu
 
 Molino de cereales (ampliado):
 
-Categoría: Colocables - Producción
+Categoría: Colocable - Producción
 Precio: 325.000
 Mantenimiento: 120
 Producciones: Todo del molino de cereales +
-Entrada: Guisantes
-Salida: Harina de guisantes
-Entrada: Guisantes
-Salida: Harina
-Entrada: Maíz
-Salida: Harina de maíz
-Entrada: Maíz
-Salida: Harina
-Entrada: Colza
-Salida: Harina de colza
-Entrada: Colza
-Salida: Harina
-Entrada: Soja
-Salida: Harina de soja
-Entrada: Soja
-Salida: Harina
+Insumo: Guisantes
+Producto: Harina de guisantes
+Insumo: Guisantes
+Producto: Harina
+Insumo: Maíz
+Producto: Harina de maíz
+Insumo: Maíz
+Producto: Harina
+Insumo: Colza
+Producto: Harina de colza
+Insumo: Colza
+Producto: Harina
+Insumo: Soja
+Producto: Harina de soja
+Insumo: Soja
+Producto: Harina
+Insumo: Girasoles
+Producto: Girasol Harina
 Entrada: Girasoles
-Salida: Harina de girasol
-Entrada: Girasoles
 Salida: Harina
 
-Las producciones de harina específicas para plantas son más eficientes; sin embargo, la harina estándar todavía debe ser usable en la panadería.
+La producción de harina específica para cada planta es más eficiente; sin embargo, la harina estándar debería seguir siendo utilizable en la panadería.
 
-Lechería (ampliada):
+Lácteos (Extendido):
 
-Categoría: Colocables - Producción
+Categoría: Colocable - Producción
 Precio: 245.000
 Mantenimiento: 110
 Producciones: Todo de la lechería +
-Entrada: Leche + Azúcar
-Salida: Yogur
-Entrada: Leche + Azúcar + Fresas
-Salida: Leche de fresa
-Entrada: Leche + Ajo
-Salida: Mantequilla de ajo
+Insumo: Leche + Azúcar
+Producción: Yogur
+Insumo: Leche + Azúcar + Fresas
+Producción: Leche de fresa
+Insumo: Leche + Ajo
+Producción: Mantequilla de ajo
 
 Producción de leche vegetal:
 
-Categoría: Colocables - Producción
+Categoría: Colocable - Producción
 Precio: 225.000
 Mantenimiento: 85
 Producciones:
-Entrada: Guisantes
-Salida: Leche de guisantes
-Entrada: Avena
-Salida: Leche de avena
-Entrada: Arroz de grano largo
-Salida: Leche de arroz
-Entrada: Arroz
-Salida: Leche de arroz
-Entrada: Soja
-Salida: Leche de soja
+Insumo: Guisantes
+Producción: Leche de guisantes
+Insumo: Avena
+Producción: Leche de avena
+Insumo: Arroz de grano largo
+Producción: Leche de arroz
+Insumo: Arroz
+Producción: Leche de arroz
+Insumo: Soja
+Producción: Leche de soja
 
-Nota: Los iconos HUD y los palets no están diseñados de forma óptima.
+Fábrica de proteína vegetal
+Precio: 195.000
+Mantenimiento: 40
+Producciones:
+Insumo: Soja / Guisantes
+Resultado: Suero de leche
+Insumo: Guisantes / Soja / Trigo
+Resultado: Escalope vegano
+Insumo: Guisantes, cebolla y chile
+Resultado: Bolitas de verduras
+Insumo: Trigo
+Resultado: Seitán
+Insumo: Soja
+Resultado: Tofu
 
-GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
-]]></es>
-<fr><![CDATA[Contient une série de nouvelles chaînes de production, y compris trois bâtiments de production et produits.
-Nouveaux produits :
+Registro de cambios:
+1.0.1.0
+- Se añadieron nombres en checo
+- Se corrigieron los nombres en alemán de las alternativas a la leche: "bebida" en lugar de "leche"
+- Se añadió la nueva Fábrica de Proteínas de Origen Vegetal con nuevas Producciones y nuevos Productos
+
+Nota: Es posible que los iconos y paletas del HUD no tengan un diseño óptimo.
+
+GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions]]></es>
+<fr><![CDATA[Contient une série de nouvelles chaînes de production, dont trois bâtiments de production et produits. Nouveaux produits :
 
 Farine de pois
 Farine de maïs
 Farine de colza
 Farine de soja
 Farine de tournesol
-Beurre à l’ail
+Beurre à l'ail
 Yaourt
-Lait à la fraise
+Lait de fraise
 Lait de pois
-Lait d’avoine
+Lait d'avoine
 Lait de riz
 Lait de soja
+Lactosérum
+Escalopes véganes
+Boulettes de légumes
+Seitan
+Tofu
 
-Moulin à grains (étendu) :
+Moulin à grains (Étendu) :
 
-Catégorie : Positionnable - Production
-Prix : 325 000
-Entretien : 120
-Productions : Tout du moulin à grains +
-Entrée : Pois
-Sortie : Farine de pois
-Entrée : Pois
-Sortie : Farine
-Entrée : Maïs
-Sortie : Farine de maïs
-Entrée : Maïs
-Sortie : Farine
-Entrée : Colza
-Sortie : Farine de colza
-Entrée : Colza
-Sortie : Farine
-Entrée : Soja
-Sortie : Farine de soja
-Entrée : Soja
-Sortie : Farine
-Entrée : Tournesols
-Sortie : Farine de tournesol
-Entrée : Tournesols
-Sortie : Farine
+Catégorie : Placeable - Production
+Prix : 325 000
+Maintenance : 120
+Productions : Toutes issues du moulin à grains +
+Intrant : Pois
+Sortie : Farine de pois
+Intrant : Pois
+Sortie : Farine
+Intrant : Maïs
+Sortie : Farine de maïs
+Intrant : Maïs
+Sortie : Farine
+Intrant : Colza
+Sortie : Farine de colza
+Intrant : Colza
+Sortie : Farine
+Intrant : Soja
+Sortie : Farine de soja
+Sortie : Soja
+Sortie : Farine
+Intrant : Tournesols
+Sortie : Farine de tournesol
+Entrée : Tournesols
+Sortie : Farine
 
-Les productions de farine spécifiques aux plantes sont plus efficaces ; cependant, la farine standard doit rester utilisable pour la boulangerie.
+Les productions de farine spécifiques à chaque plante sont plus efficaces ; cependant, la farine standard devrait rester utilisable en boulangerie.
 
-Laiterie (étendue) :
+Produits laitiers (Étendus) :
 
-Catégorie : Positionnable - Production
-Prix : 245 000
-Entretien : 110
-Productions : Tout de la laiterie +
-Entrée : Lait + Sucre
-Sortie : Yaourt
-Entrée : Lait + Sucre + Fraises
-Sortie : Lait à la fraise
-Entrée : Lait + Ail
-Sortie : Beurre à l’ail
+Catégorie : Commercialisable - Production
+Prix : 245 000
+Maintenance : 110
+Productions : Toutes issues de la laiterie +
+Intrants : Lait + Sucre
+Production : Yaourt
+Intrant : Lait + Sucre + Fraises
+Production : Lait à la fraise
+Intrant : Lait + Ail
+Production : Beurre à l’ail
 
-Production de lait végétal :
+Production de lait végétal :
 
-Catégorie : Positionnable - Production
-Prix : 225 000
-Entretien : 85
-Productions :
-Entrée : Pois
-Sortie : Lait de pois
-Entrée : Avoine
-Sortie : Lait d’avoine
-Entrée : Riz long
-Sortie : Lait de riz
-Entrée : Riz
-Sortie : Lait de riz
-Entrée : Soja
-Sortie : Lait de soja
+Catégorie : Commercialisable - Production
+Prix : 225 000
+Maintenance : 85
+Productions :
+Intrant : Pois
+Production : Lait de pois
+Intrant : Avoine
+Production : Lait d’avoine
+Intrant : Riz long grain
+Production : Lait de riz
+Intrant : Riz
+Production : Lait de riz
+Intrant : Soja
+Production : Lait de soja
 
-Remarque : Les icônes HUD et les palettes ne sont pas parfaitement conçues.
+Usine de protéines végétales
+Prix : 195 000
+Maintenance : 40
+Productions :
+Intrant : Soja / Petits pois
+Sortie : Lactosérum
+Sortie : Petits pois / Soja / Blé
+Sortie : Escalope végétalienne
+Sortie : Petits pois, oignons et piment
+Sortie : Boulettes de légumes
+Sortie : Blé
+Sortie : Seitan
+Sortie : Soja
+Sortie : Tofu
 
-GitHub : https://github.com/Fasde/FS25_ExtendedGoodsandProductions
+Journal des modifications :
+1.0.1.0
+- Ajout des noms tchèques
+- Correction des noms allemands des alternatives au lait : « boire » au lieu de « lait »
+- Ajout de la nouvelle usine de protéines végétales avec de nouvelles productions et de nouveaux produits
 
+Remarque : Les icônes et les palettes de l'interface utilisateur peuvent ne pas être optimales.
+
+GitHub : https://github.com/Fasde/FS25_ExtendedGoodsandProductions
 ]]></fr>
-<it><![CDATA[Contiene una serie di nuove catene produttive, inclusi tre edifici di produzione e prodotti.
-Nuovi beni:
+<it><![CDATA[Contiene una serie di nuove catene di produzione, tra cui tre edifici produttivi e prodotti. Nuovi prodotti:
 
 Farina di piselli
 Farina di mais
-Farina di colza
+Farina di canola
 Farina di soia
 Farina di girasole
 Burro all'aglio
 Yogurt
 Latte alla fragola
 Latte di piselli
-Latte di avena
+Latte d'avena
 Latte di riso
 Latte di soia
+Siero di latte
+Cotoletta vegana
+Polpette di verdure
+Seitan
+Tofu
 
-Mulino per cereali (esteso):
+Mulino per cereali (Esteso):
 
 Categoria: Posizionabile - Produzione
 Prezzo: 325.000
 Manutenzione: 120
-Produzioni: Tutto dal mulino per cereali +
+Produzioni: Tutte dal mulino per cereali +
 Input: Piselli
 Output: Farina di piselli
 Input: Piselli
@@ -390,11 +479,11 @@ Output: Farina di girasole
 Input: Girasoli
 Output: Farina
 
-Le produzioni di farina specifiche per le piante sono più efficienti; tuttavia, la farina normale dovrebbe essere ancora utilizzabile per il panificio.
+La produzione di farina specifica per pianta è più efficiente; tuttavia, la farina standard dovrebbe comunque essere utilizzabile per la panificazione.
 
-Caseificio (esteso):
+Latticini (Esteso):
 
-Categoria: Posizionabile - Produzione
+Categoria: Collocabile - Produzione
 Prezzo: 245.000
 Manutenzione: 110
 Produzioni: Tutto dal caseificio +
@@ -407,14 +496,14 @@ Output: Burro all'aglio
 
 Produzione di latte vegetale:
 
-Categoria: Posizionabile - Produzione
+Categoria: Collocabile - Produzione
 Prezzo: 225.000
 Manutenzione: 85
 Produzioni:
 Input: Piselli
 Output: Latte di piselli
 Input: Avena
-Output: Latte di avena
+Output: Latte d'avena
 Input: Riso a chicco lungo
 Output: Latte di riso
 Input: Riso
@@ -422,10 +511,137 @@ Output: Latte di riso
 Input: Soia
 Output: Latte di soia
 
-Nota: Le icone HUD e i pallet non sono ottimamente progettati.
+Fabbrica di proteine ​​vegetali
+Prezzo: 195.000
+Manutenzione: 40
+Produzioni:
+Input: Soia / Piselli
+Output: Siero di latte
+Input: Piselli / Soia / Grano
+Output: Cotoletta vegana
+Input: Piselli, cipolla e peperoncino
+Output: Polpette di verdure
+Input: Grano
+Output: Seitan
+Input: Soia
+Output: Tofu
+
+Changelog:
+1.0.1.0
+- Aggiunti nomi in ceco
+- Corretti i nomi tedeschi per le alternative al latte, con "drink" invece di "milk"
+- Aggiunta la nuova Fabbrica di proteine ​​vegetali con nuove produzioni e nuove merci
+
+Nota: le icone e i pallet dell'HUD potrebbero non essere progettati in modo ottimale.
+
+GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions]]></it>
+<cz><![CDATA[Obsahuje řadu nových výrobních řetězců, včetně tří výrobních budov a produktů.
+Nové zboží:
+
+Hrachová mouka
+Kukuřičná mouka
+Řepková mouka
+Sojová mouka
+Slunečnicová mouka
+Česnekové máslo
+Jogurt
+Jahodové mléko
+Hrachové mléko
+Ovesné mléko
+Rýžové mléko
+Sojové mléko
+Syrovátka
+Veganský řízek
+Zeleninové kuličky
+Seitan
+Tofu
+
+Mlýnek na obilí (prodloužený):
+
+Kategorie: Umístění - Výroba
+Cena: 325 000
+Údržba: 120
+Produkce: Vše z obilného mlýna +
+Vstup: Hrách
+Výstup: Hrachová mouka
+Vstup: Hrách
+Výstup: Mouka
+Vstup: Kukuřice
+Výstup: Kukuřičná mouka
+Vstup: Kukuřice
+Výstup: Mouka
+Vstup: Řepka
+Výstup: Řepková mouka
+Vstup: Řepka
+Výstup: Mouka
+Vstup: Sójové boby
+Výstup: Sojová mouka
+Vstup: Sójové boby
+Výstup: Mouka
+Vstup: Slunečnice
+Výstup: Slunečnicová mouka
+Vstup: Slunečnice
+Výstup: Mouka
+
+Výroba mouky specifická pro rostliny je efektivnější; standardní mouka by však měla být stále použitelná pro pekárnu.
+
+Mléčné výrobky (rozšířené):
+
+Kategorie: Umístění - Výroba
+Cena: 245 000
+Údržba: 110
+Produkce: Vše z mlékárny +
+Vstup: mléko + cukr
+Výstup: Jogurt
+Vstup: Mléko + Cukr + Jahody
+Výstup: Jahodové mléko
+Vstup: mléko + česnek
+Výstup: Česnekové máslo
+
+Výroba rostlinného mléka:
+
+Kategorie: Umístění - Výroba
+Cena: 225 000
+Údržba: 85
+Produkce:
+Vstup: Hrách
+Výstup: Hrachové mléko
+Vstup: Oves
+Výstup: Ovesné mléko
+Vstup: Dlouhozrnná rýže
+Výstup: rýžové mléko
+Vstup: rýže
+Výstup: rýžové mléko
+Vstup: Sójové boby
+Výstup: Sojové mléko
+
+Plant-Based Protein Factory
+Cena: 195 000
+Údržba: 40
+Produkce:
+Vstup: Sója / Hrách
+Výstup: Syrovátka
+Vstup: Hrách / Sója / Pšenice
+Výstup: Veganský řízek
+Vstup: Hrášek & Cibule & Chilli
+Výstup: Zeleninové kuličky
+Vstup: Pšenice
+Výstup: Seitan
+Vstup: Sója
+Výstup: Tofu
+
+Seznam změn:
+1.0.1.0
+- Přidána česká jména
+- Opraveny německé názvy mléčných alternativ na "pít" místo "mléko"
+- Přidána nová továrna na proteiny rostlinného původu s novou výrobou a novým zbožím
+
+
+Poznámka: Ikony a palety HUD nemusí být optimálně navrženy.
 
 GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
-]]></it>
+]]>
+</cz>
     </description>
 	
     <iconFilename>icon_extendedGoodsAndProductions.dds</iconFilename>
@@ -447,11 +663,16 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
         <storeItem xmlFilename="xml/pallets/soyMilkBottlesBoxPallet.xml"/>
         <storeItem xmlFilename="xml/pallets/strawberryMilkBottlesBoxPallet.xml"/>
         <storeItem xmlFilename="xml/pallets/yoghurtBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/seitanBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/veganSchnitzelBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/veggieBallsBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/tofuBoxPallet.xml"/>
+        <storeItem xmlFilename="xml/pallets/wheyBoxPallet.xml"/>
 
-		
-		<storeItem xmlFilename="xml/placeables/grainMill.xml"/>
+        <storeItem xmlFilename="xml/placeables/grainMill.xml"/>
         <storeItem xmlFilename="xml/placeables/grainMilkProduction.xml"/>
         <storeItem xmlFilename="xml/placeables/dairy.xml"/>
+        <storeItem xmlFilename="xml/placeables/plantBasedProteinFactory.xml"/>
     </storeItems>
 	
 	<l10n>
@@ -461,7 +682,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de maiz</es>
             <fr>Farine de maïs</fr>
             <it>Farina di mais</it>
-			<cz>Kukuřičná mouka</en>
+			<cz>Kukuřičná mouka</cz>
         </text>
 		<text name="fillType_soyFlour">
             <en>Soy flour</en>
@@ -469,7 +690,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de soja</es>
             <fr>Farine de soja</fr>
             <it>Farina di soia</it>
-			<cz>Sójová mouka</en>
+			<cz>Sójová mouka</cz>
         </text>
 		<text name="fillType_peasFlour">
             <en>Peas flour</en>
@@ -477,7 +698,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de guisantes</es>
             <fr>Farine de pois</fr>
             <it>Farina di piselli</it>
-			<cz>Hrachová mouka</en>
+			<cz>Hrachová mouka</cz>
         </text>
 		<text name="fillType_canolaFlour">
             <en>Canola flour</en>
@@ -485,7 +706,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de colza</es>
             <fr>Farine de colza</fr>
             <it>Farina di colza</it>
-			<cz>Řepková mouka</en>
+			<cz>Řepková mouka</cz>
         </text>
 		<text name="fillType_sunflowerFlour">
             <en>Sunflower flour</en>
@@ -493,7 +714,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Harina de girasol</es>
             <fr>Farine de tournesol</fr>
             <it>Farina di girasole</it>
-			<cz>Slunečnicová mouka</en>
+			<cz>Slunečnicová mouka</cz>
         </text>
         <text name="fillType_strawberryMilk_bottled">
             <en>Strawberry milk (bottled)</en>
@@ -501,7 +722,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Leche de fresa (embotellado)</es>
             <fr>Lait de fraise (en bouteille)</fr>
             <it>Latte alla fragola (in bottiglia)</it>
-			<cz>Jahodové mléko (balené)</en>
+			<cz>Jahodové mléko (balené)</cz>
         </text>
 		<text name="fillType_yoghurt">
             <en>Yoghurt</en>
@@ -509,7 +730,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Yogur</es>
             <fr>Yaourt</fr>
             <it>Yogurt</it>
-			<cz>Jogurt</en>
+			<cz>Jogurt</cz>
         </text>
 		<text name="fillType_garlicButter">
             <en>Garlic butter</en>
@@ -517,47 +738,47 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Mantequilla de ajo</es>
             <fr>Beurre à l'ail</fr>
             <it>Burro all'aglio</it>
-			<cz>Česnekové máslo</en>
+			<cz>Česnekové máslo</cz>
         </text>
 		<text name="fillType_peaMilkBottled">
             <en>Pea milk</en>
-            <de>Erbsenmilch (abgefüllt)</de>
+            <de>Erbsendrink (abgefüllt)</de>
             <es>Leche de guisantes (embotellada)</es>
             <fr>Lait de pois (en bouteille)</fr>
             <it>Latte di piselli (in bottiglia)</it>
-			<cz>Hrachové mléko</en>
+			<cz>Hrachové mléko</cz>
         </text>
 		<text name="fillType_soyMilkBottled">
             <en>Soy milk</en>
-            <de>Sojamilch (abgefüllt)</de>
+            <de>Sojadrink (abgefüllt)</de>
             <es>Leche de soja (embotellada)</es>
             <fr>Lait de soja (en bouteille)</fr>
             <it>Latte di soia (in bottiglia)</it>
-			<cz>Sójové mléko</en>
+			<cz>Sójové mléko</cz>
         </text>
 		<text name="fillType_riceMilkBottled">
             <en>Rice milk</en>
-            <de>Reismilch (abgefüllt)</de>
+            <de>Reisdrink (abgefüllt)</de>
             <es>Leche de arroz (embotellada)</es>
             <fr>Lait de riz (en bouteille)</fr>
             <it>Latte di riso (in bottiglia)</it>
-			<cz>Rýžové mléko</en>
+			<cz>Rýžové mléko</cz>
         </text>
 		<text name="fillType_oatMilkBottled">
             <en>Oat milk</en>
-            <de>Hafermilch (abgefüllt)</de>
+            <de>Haferdrink (abgefüllt)</de>
             <es>Leche de avena (embotellada)</es>
             <fr>Lait d'avoine (en bouteille)</fr>
             <it>Latte d'avena (in bottiglia)</it>
-			<cz>Ovesné mléko</en>
+			<cz>Ovesné mléko</cz>
         </text>
 		<text name="stationGrainMilkProduction">
             <en>Plant Based Milk Production</en>
-            <de>Pflanzliche Milchproduktion</de>
+            <de>Produktion pflanzlicher Milch-Alternativen</de>
             <es>Producción de leche vegetal</es>
             <fr>Production de lait végétal</fr>
             <it>Produzione di latte vegetale</it>
-			<cz>Výroba mléka na rostlinné bázi</en>
+			<cz>Výroba mléka na rostlinné bázi</cz>
         </text>
 		<text name="stationExtendedDairy">
             <en>Extended Dairy Production</en>
@@ -565,7 +786,7 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Lácteos (ampliado)</es>
             <fr>Produits laitiers (élargi)</fr>
             <it>Latticini (ampliato)</it>
-			<cz>Rozšířená mlékárna</en>
+			<cz>Rozšířená mlékárna</cz>
         </text>
 		<text name="stationExtendedGrainMill">
             <en>Extended Grain Mill</en>
@@ -573,7 +794,55 @@ GitHub: https://github.com/Fasde/FS25_ExtendedGoodsandProductions
             <es>Molino de granos (ampliado)</es>
             <fr>Moulin à grains (élargi)</fr>
             <it>Mulino per cereali (ampliato)</it>
-			<cz>Rozšířený obilný mlýn</en>
+			<cz>Rozšířený obilný mlýn</cz>
+        </text>
+        <text name="stationPlantBasedProteinFactory">
+            <en>Plant-Based Protein Factory</en>
+            <de>Pflanzenbasierte Proteinfabrik</de>
+            <es>Fábrica de proteínas de origen vegetal</es>
+            <fr>Usine de protéines végétales</fr>
+            <it>Fabbrica di proteine ​​vegetali</it>
+			<cz>Rostlinná továrna na bílkoviny</cz>
+        </text>
+        <text name="fillType_whey">
+            <en>Whey Powder</en>
+            <de>Whey Pulver</de>
+            <es>Suero en polvo</es>
+            <fr>Poudre de lactosérum</fr>
+            <it>Siero di latte in polvere</it>
+			<cz>Syrovátkový Prášek</cz>
+        </text>
+        <text name="fillType_veganSchnitzel">
+            <en>Vegan Schnitzel</en>
+            <de>Veganes Schnitzel</de>
+            <es>Suero en polvo</es>
+            <fr>Poudre de lactosérum</fr>
+            <it>Siero di latte in polvere</it>
+			<cz>Syrovátkový Prášek</cz>
+        </text>
+        <text name="fillType_veggieballs">
+            <en>Veggie Balls</en>
+            <de>Gemüsebällchen</de>
+            <es>Bolas de verduras</es>
+            <fr>Boulettes de légumes</fr>
+            <it>Polpette di verdure</it>
+			<cz>Zeleninové kuličky</cz>
+        </text>
+        <text name="fillType_seitan">
+            <en>Seitan</en>
+            <de>Seitan</de>
+            <es>Seitan</es>
+            <fr>Seitan</fr>
+            <it>Seitan</it>
+			<cz>Seitan</cz>
+        </text>
+        <text name="fillType_tofu">
+            <en>Tofu</en>
+            <de>Tofu</de>
+            <es>Tofu</es>
+            <fr>Tofu</fr>
+            <it>Tofu</it>
+			<cz>Tofu</cz>
         </text>
 	</l10n>
 </modDesc>

@@ -197,6 +197,14 @@
                     <output fillType="STRAWBERRYMILK_BOTTLED" amount="25" />
                 </outputs>
             </production>
+            <production id="whey" name="$l10n_fillType_whey" cyclesPerHour="25" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="MILK" amount="10" />
+                </inputs>
+                <outputs>
+                    <output fillType="WHEY" amount="1" />
+                </outputs>
+            </production>
         </productions>
 
 
@@ -218,7 +226,7 @@
             <capacity fillType="GOATMILK_BOTTLED"    capacity="30000" />
             <capacity fillType="BUFFALOMILK_BOTTLED" capacity="30000" />
             <capacity fillType="GARLICBUTTER" capacity="30000" />
-
+            <capacity fillType="WHEY" capacity="30000" />
         </storage>
 
         <sellingStation node="sellingStation" supportsExtension="false">
